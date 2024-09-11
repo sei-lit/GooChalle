@@ -11,6 +11,8 @@
 		8935122D2C9158FE004FF3EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8935122C2C9158FE004FF3EA /* ContentView.swift */; };
 		8935122F2C9158FF004FF3EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8935122E2C9158FF004FF3EA /* Assets.xcassets */; };
 		893512322C9158FF004FF3EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893512312C9158FF004FF3EA /* Preview Assets.xcassets */; };
+		CF6C33BA2C9170770037F9F5 /* SingUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6C33B92C9170770037F9F5 /* SingUpView.swift */; };
+		CFF8BBDE2C916A8A0028C960 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8BBDD2C916A8A0028C960 /* SignInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8935122C2C9158FE004FF3EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8935122E2C9158FF004FF3EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		893512312C9158FF004FF3EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF6C33B92C9170770037F9F5 /* SingUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpView.swift; sourceTree = "<group>"; };
+		CFF8BBDD2C916A8A0028C960 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				8935122C2C9158FE004FF3EA /* ContentView.swift */,
 				8935122E2C9158FF004FF3EA /* Assets.xcassets */,
 				893512302C9158FF004FF3EA /* Preview Content */,
+				CFF8BBDD2C916A8A0028C960 /* SignInView.swift */,
+				CF6C33B92C9170770037F9F5 /* SingUpView.swift */,
 			);
 			path = ShareLinkDemo;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6C33BA2C9170770037F9F5 /* SingUpView.swift in Sources */,
 				8935122D2C9158FE004FF3EA /* ContentView.swift in Sources */,
+				CFF8BBDE2C916A8A0028C960 /* SignInView.swift in Sources */,
 				8935122B2C9158FE004FF3EA /* ShareLinkDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
